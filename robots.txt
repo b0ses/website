@@ -1,0 +1,8 @@
+User-agent: Googlebot
+Disallow: /Downloads
+Disallow: /images
+
+User-agent: *
+Disallow: /
+
+Sitemap: http://www.danielboos.org/sitemap.txt

@@ -1,0 +1,303 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Bad+Script|Inconsolata:700|Belleza);
+
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input,hr {margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,th {font-size:1em; font-weight:normal; font-style:normal;}
+ul,ol {list-style:none;}
+
+h1 {
+	font-size: 30px;
+	text-indent: 0px;
+	font-weight: bold;
+}
+
+h2 {
+	text-indent: 0;
+	font-weight: 800;
+}
+
+.history-link{
+	color:white;
+}
+
+html{visibility:hidden;background-color:white;}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #42413C;
+	background-image: url(images/Background_2.png);
+	font-family: Belleza;
+	font-size: 100%;
+	line-height: 1.8;
+	background-attachment: fixed;
+}
+
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 100%;
+	margin: 0;
+	font-family: Belleza;
+}
+
+p{	text-indent: 25px;}
+a img {
+	border: none;
+}
+a:link {
+	color: #990000;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:visited {
+    color: #990000;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix{
+    *zoom: 1;
+}
+
+.container {
+	max-width: 1024px; 
+    height:100%;
+    padding: 10px 45px;
+	margin: 0 auto;
+	background-image: url(images/Background_3.png);
+	background-repeat: repeat-y;
+}
+
+.s1 {
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode:both;
+    -moz-animation-duration: 0.5s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-fill-mode:both;
+    -ms-animation-duration: 0.5s;
+    -ms-animation-timing-function: ease-in-out;
+    -ms-animation-fill-mode:both;
+    -o-animation-duration: 0.5s;
+    -o-animation-timing-function: ease-in-out;
+    -o-animation-fill-mode:both;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:both;
+}
+
+.s5 {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode:both;
+    -moz-animation-duration: 2s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-fill-mode:both;
+    -ms-animation-duration: 2s;
+    -ms-animation-timing-function: ease-in-out;
+    -ms-animation-fill-mode:both;
+    -o-animation-duration: 2s;
+    -o-animation-timing-function: ease-in-out;
+    -o-animation-fill-mode:both;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:both;
+}
+
+#contact-left, #contact-right{
+	font-family: "Belleza";
+	color: #600;
+	line-height: 2.5em;
+	font-size: 20px;
+}
+
+#contact-left {
+	float: left;
+}
+#name-image {
+	max-width:609px;
+	margin-right: auto;
+	margin-left: auto;
+    background-image: url('images/banner/Paper.png');
+    background-repeat:no-repeat;
+    z-index:3;
+    position:relative;
+	background-size:70% 100%;
+	background-position: center center;
+}
+#name-image a{
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    font-weight:200;
+    font-size: 55pt;
+    color: #600;
+    display:block;
+}
+#insignia {
+    position:absolute;
+    top:10px;
+    left: 46%;
+    width:200px;
+    height:100px;
+	max-width:519px;
+	margin-right: auto;
+	margin-left: auto;
+    background-image: url('images/Signature.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+#contact-right {
+	float: right;
+    text-align:right;
+}
+
+#banner, #content .image{
+	display:block;
+    position:relative;
+}
+
+#content .image{
+	margin:25px;
+}
+
+#banner, #content .image:before{
+    -webkit-box-shadow: inset 0px 0px 24px 3px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 24px 3px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 24px 3px rgba(255,255,255,1);
+	display:block;
+    content:'';
+    position:absolute;
+    width:100%;
+    height:100%;
+	z-index:3;
+}
+
+#banner {
+    z-index:1;
+	height:449px;
+	margin: 0 auto;
+    position:relative;
+    clear:both;
+    background-image:url("images/banner/home.png");
+    background-size: cover;
+	background-position: center center;
+}
+#banner h1, input, input:focus, #log {
+    position:absolute;
+    bottom:15px;
+    left:0;
+    color: rgba(255,255,255,0.75);
+    font-size:50px;
+    font-family: 'Inconsolata', sans-serif;
+    font-weight:900;
+    word-spacing: -0.2em;
+    letter-spacing: 0.025em;
+    border:none;
+    outline:none;
+    background:transparent;
+	line-height:1;
+}
+
+input, input:focus{
+    left:42px;
+	width:90%;
+}
+
+#log{
+    bottom:70px;
+    left:15px;
+}
+
+#navigation li{
+    display:block;
+    float:left;
+    width:33%;
+    font-family: 'Bad Script', cursive;
+    text-align:center;
+    padding:5px 0;
+}
+
+#navigation li a{
+    font-family: 'Bad Script', cursive;
+    font-size:50px;
+}
+
+#content-container{
+	width:auto;
+	color: #000;
+	font-family: Belleza;
+    font-size:20px;
+	background-image: url(images/Background_4.png);
+	border: 10px solid #630;
+	padding:20px;
+	overflow: hidden;
+	visibility: inherit;
+    clear:both;
+}
+
+#content h1{
+	color: #990000;
+	font-family: 'Bad Script';
+	font-size:30px;
+	margin-top:20px;
+	border-bottom:1px solid;
+	display: inline-block;
+	padding-left:0;
+	padding-right: 20px;
+	line-height:1;
+}
+
+#content.home .image:first-of-type{float:right;}
+#content.home  .image:last-of-type{float:left;}
+
+#content #education .image{
+    width:400px;
+	height:215px;
+	overflow:hidden;
+}
+
+#content #education  #high-school .image img{height:100%;position:relative;}
+#content #education #college .image img{width:100%;position:relative;top:-50px;}
+
+#high-school, #college{float:left;margin-left:25px}
+
+.job{margin-bottom:20px;}
+#booz-allen{margin-left:20px;}
+
+#work .image, #work img{float:right;}
+#work #whs img{margin-right: 45px;}
+#work #garage img{margin-right: 70px; width:150px;}
+
+#content ul, #content ul li{
+	margin-left: 30px;
+}
+
+#work ul li{
+	width:600px;
+}
+
+#proficiency-bar, #experience-bar{
+	width:100% !important;
+}
+
+

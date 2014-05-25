@@ -1,0 +1,8 @@
+#changes default file
+DirectoryIndex home.html
+
+#removes .html from url
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ $1.html [L]
