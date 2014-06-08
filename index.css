@@ -286,7 +286,9 @@ input, input:focus{
 
 #work .image, #work img{float:right;}
 #work #whs img{margin-right: 45px;}
-#work #garage img{margin-right: 70px; width:150px;}
+#work #garage img{margin-right: 70px; width:150px; margin-top:70px; margin-bottom:-70px;}
+#work #arc-tool img{height:175px; margin-right:55px;}
+#work #fire-review img{height:150px; margin-right:35px;}
 
 #content ul, #content ul li{
 	margin-left: 30px;
